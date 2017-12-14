@@ -192,6 +192,8 @@
                 </executions>
             </plugin>
             
+            <!-- 새로운 로직 -->
+            
             <!-- 
             <plugin>
                
