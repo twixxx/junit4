@@ -262,11 +262,10 @@
                     </execution>
                 </executions>
             </plugin>
+            
+            <!--  
             <plugin>
-                <!--
-                A plugin which uses the JUnit framework in order to start
-                our junit suite "AllTests" after the sources are compiled.
-                -->
+              
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${surefireVersion}</version>
                 <configuration>
@@ -281,7 +280,7 @@
                         <version>${surefireVersion}</version>
                     </dependency>
                 </dependencies>
-            </plugin>
+            </plugin> -->
             <plugin>
                 <!--
                 This plugin can package the main artifact's sources (src/main/java)
@@ -290,6 +289,8 @@
                 <artifactId>maven-source-plugin</artifactId>
                 <version>2.4</version>
             </plugin>
+           
+            
             <plugin>
                 <!--
                 This plugin can generate Javadoc by a forked
